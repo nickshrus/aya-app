@@ -316,3 +316,35 @@
     margin-top: -1rem;
   }
 }
+@media (max-width: 480px) {
+  .home-screen::before,
+  .home-screen::after,
+  .grain-overlay {
+    display: none !important;
+  }
+
+  .home-screen {
+    background:
+      radial-gradient(
+        circle at 50% 42%,
+        rgba(255, 236, 210, 0.38) 0%,
+        rgba(255, 236, 210, 0.18) 18%,
+        rgba(255, 236, 210, 0.08) 34%,
+        rgba(255, 236, 210, 0.02) 50%,
+        rgba(255, 236, 210, 0) 64%
+      ),
+      radial-gradient(
+        ellipse at 50% -8%,
+        rgba(255, 245, 225, 0.06) 0%,
+        rgba(255, 245, 225, 0.025) 22%,
+        rgba(255, 245, 225, 0) 42%
+      ),
+      linear-gradient(
+        180deg,
+        #2f221f 0%,
+        #3b2b28 28%,
+        #4a3631 68%,
+        #2c201d 100%
+      ) !important;
+  }
+}
