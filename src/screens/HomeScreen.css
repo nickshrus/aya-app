@@ -191,10 +191,8 @@
   margin-bottom: -0.5rem;
 }
 
-.session-screen__content .orb__image {
-  width: min(118vw, 760px);
-  min-width: 420px;
-  height: auto;
+.session-screen__content .orb {
+  width: min(92vw, 430px);
 }
 
 .session-screen__content .time-label {
@@ -229,10 +227,8 @@
   margin-bottom: -0.5rem;
 }
 
-.home-screen__content--home .orb__image {
-  width: min(88vw, 520px);
-  min-width: 280px;
-  height: auto;
+.home-screen__content--home .orb {
+  width: min(72vw, 320px);
 }
 
 .home-subtext {

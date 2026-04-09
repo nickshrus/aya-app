@@ -38,3 +38,29 @@
       brightness(1);
   }
 }
+@media (max-width: 480px) {
+  .orb {
+    position: relative;
+    width: min(78vw, 360px);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .orb__image {
+    display: none !important;
+  }
+
+  .orb::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: #f6efe8;
+    box-shadow:
+      0 0 30px rgba(255, 236, 210, 0.55),
+      0 0 70px rgba(255, 236, 210, 0.35),
+      0 0 130px rgba(255, 236, 210, 0.22);
+  }
+}
