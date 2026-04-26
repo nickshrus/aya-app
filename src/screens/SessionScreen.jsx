@@ -58,7 +58,7 @@ function SessionScreen({ onNavigate, durationMinutes = 5 }) {
 
       <div className="home-screen__content session-screen__content">
         <h1 className="home-screen__title session-screen__title">
-          {phase === 'prepare' ? 'Your reset will start...' : 'Breathe slowly'}
+          {phase === 'prepare' ? 'Your reset will start in...' : 'Breathe slowly'}
         </h1>
 
         <div className="orb-wrapper">

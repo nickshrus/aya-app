@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transform-origin: center center;
+  animation: orb-breathe 5.5s ease-in-out infinite;
 }
 
 .orb__image {
@@ -16,7 +18,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.06);
+    transform: scale(1.08);
   }
   100% {
     transform: scale(1);

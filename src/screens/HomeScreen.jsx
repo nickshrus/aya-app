@@ -16,7 +16,7 @@ function HomeScreen({ onNavigate }) {
         </div>
 
         <p className="home-subtext">
-          2–5 minutes to reset
+          2–10 minutes to reset
           <br />
           your stress
         </p>
